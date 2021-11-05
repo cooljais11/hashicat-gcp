@@ -2,7 +2,7 @@ module "network" {
   source  = "app.terraform.io/mycool-1/network/google"
   version = "3.4.0"
   # insert required variables here
-  network_name = "gaurav-network"
+  network_name = "gaurav-network-1"
   project_id   = var.project
 
   subnets = [
